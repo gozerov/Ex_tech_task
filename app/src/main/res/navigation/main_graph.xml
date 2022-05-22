@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/contactsListFragment">
+
+    <fragment
+        android:id="@+id/contactsListFragment"
+        android:name="ru.gozerov.ex_tech_task.screens.contacts_list.ContactsListFragment"
+        android:label="ContactsListFragment" >
+        <action
+            android:id="@+id/action_contactsListFragment_to_filterContactsDialog"
+            app:destination="@id/filterContactsDialog" />
+        <action
+            android:id="@+id/action_contactsListFragment_to_userProfileFragment"
+            app:destination="@id/userProfileFragment" />
+    </fragment>
+    <dialog
+        android:id="@+id/filterContactsDialog"
+        android:name="ru.gozerov.ex_tech_task.screens.contacts_list.FilterContactsDialog"
+        android:label="dialog_filter_contacts"
+        tools:layout="@layout/dialog_filter_contacts" />
+    <fragment
+        android:id="@+id/userProfileFragment"
+        android:name="ru.gozerov.ex_tech_task.screens.user_profile.UserProfileFragment"
+        android:label="UserProfileFragment" />
+</navigation>

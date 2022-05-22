@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Grigory/AndroidStudioProjects/Ex_tech_task/app/src/main/res/drawable/background_input.xml" value="0.1685" />
+        <entry key="..\:/Users/Grigory/AndroidStudioProjects/Ex_tech_task/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Grigory/AndroidStudioProjects/Ex_tech_task/app/src/main/res/layout/dialog_filter_contacts.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Grigory/AndroidStudioProjects/Ex_tech_task/app/src/main/res/layout/fragment_contacts_list.xml" value="0.29246231155778896" />
+        <entry key="..\:/Users/Grigory/AndroidStudioProjects/Ex_tech_task/app/src/main/res/layout/fragment_user_profile.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Grigory/AndroidStudioProjects/Ex_tech_task/app/src/main/res/layout/item_contact.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Grigory/AndroidStudioProjects/Ex_tech_task/app/src/main/res/layout/item_contact_vp.xml" value="0.2" />
+        <entry key="..\:/Users/Grigory/AndroidStudioProjects/Ex_tech_task/app/src/main/res/layout/layout_state_error.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>

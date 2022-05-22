@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Ex_tech_task</string>
+    <string name="input_name_tag_etc">Введи имя, тег, почту...</string>
+    <string name="cancel">Отмена</string>
+    <string name="text_on_error_state_1">Какой-то сверхразум все сломал</string>
+    <string name="text_on_error_state_2">Постараемся быстро починить</string>
+    <string name="try_again">Попробовать снова</string>
+    <string name="all">Все</string>
+    <string name="designers">Designers</string>
+    <string name="analysts">Analysts</string>
+    <string name="managers">Managers</string>
+    <string name="ios">IOS</string>
+    <string name="android">Android</string>
+    <string name="dialog_filter1">По алфавиту</string>
+    <string name="dialog_filter2">По дню рождения</string>
+    <string name="sorting">Сортировка</string>
 </resources>

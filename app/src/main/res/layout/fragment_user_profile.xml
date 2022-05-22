@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/topSection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/input_back"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:paddingBottom="24dp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imgUser"
+            android:layout_width="104dp"
+            android:layout_height="104dp"
+            android:layout_marginTop="24dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txtUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="24dp"
+            tools:text="User"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="24sp"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txtUserProfession"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="12dp"
+            android:textColor="@color/text_secondary"
+            tools:text="Designer"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txtUserBirthday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/topSection"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="28dp"
+        tools:text="5 июня 2000"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:drawableStartCompat="@drawable/ic_baseline_star_border_24"
+        android:drawablePadding="14dp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txtUserAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBaseline_toBaselineOf="@id/txtUserBirthday"
+        tools:text="24 года"
+        android:textSize="16sp"
+        android:textColor="#FF97979B"
+        android:layout_marginEnd="20dp"/>
+
+    <com.google.android.material.divider.MaterialDivider
+        android:id="@+id/ageDivider"
+        android:layout_width="0dp"
+        android:layout_height="0.5dp"
+        app:layout_constraintStart_toStartOf="@id/txtUserBirthday"
+        app:layout_constraintEnd_toEndOf="@id/txtUserAge"
+        app:layout_constraintTop_toBottomOf="@id/txtUserBirthday"
+        android:layout_marginTop="28dp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txtUserPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ageDivider"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="20dp"
+        tools:text="+7 (999) 900 90 90"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:drawableStartCompat="@drawable/ic_baseline_call_24"
+        android:drawablePadding="14dp"/>
+
+    <include
+        android:id="@+id/layout_state_error"
+        layout="@layout/layout_state_error"
+        android:visibility="gone"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

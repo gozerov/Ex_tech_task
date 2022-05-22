@@ -1,0 +1,11 @@
+<resources>
+    <string name="all">Все</string>
+    <string name="designers">Designers</string>
+    <string name="designer">Designer</string>
+    <string name="analysts">Analysts</string>
+    <string name="analyst">Analyst</string>
+    <string name="managers">Managers</string>
+    <string name="manager">Manager</string>
+    <string name="ios">IOS</string>
+    <string name="android">Android</string>
+</resources>
